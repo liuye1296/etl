@@ -1,0 +1,99 @@
+.normal_list{
+    width: 1600px;
+    display: flex;
+    justify-content: center;
+
+}
+.normal_list_body{
+    width: 100%;
+    margin: 30px 40px;
+}
+.normal_list_top{
+    width: 100%;
+    min-width: 1000px;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    line-height: 40px;
+    background-color: white;
+}
+.normal_list_top>button{
+    width: 100px;
+    border: none;
+    outline: none;
+    padding: 7px 0;
+    border-radius: 5px;
+    background-color: #1890FF;
+    color: white;
+}
+.normal_list_mid{
+    width: 100%;
+    min-width: 1000px;
+    background-color: white;
+}
+.normal_list_mid_container{
+    width: 100%;
+}
+.normal_list_mid_container>li{
+    width: 100%;
+
+}
+.normal_list_mid_container>li>.normal_list_source_row{
+    display: flex;
+    justify-content:space-between;
+    /*line-height: 36px;*/
+    padding-left: 10px;
+    border-bottom: 1px solid #F0F0F0;
+}
+.title_style{
+    background-color: #FAFAFA;
+    font-weight: bold;
+}
+.normal_list_source_row>li{
+    display: inline-block;
+    line-height: 50px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-left: 30px;
+
+}
+.normal_list_source_row>li>a{
+    text-decoration: none;
+    color: #1890ff;
+}
+.normal_list_source_row>li:first-child{
+    margin-left: 0;
+}
+.normal_list_bottom{
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.normal_list_bottom>li{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #D9D9D9;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.normal_list_bottom>li:hover{
+    border-color:#1890ff;
+    color: #1890ff;
+}
+.normal_list_bottom>li>i{
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.normal_list_bottom>li:first-child>i{
+    transform: translate(1px,-3px) rotate(135deg);
+}
+.normal_list_bottom>li:last-child>i{
+    transform: translate(-2px,-3px) rotate(-45deg);
+}
