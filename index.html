@@ -5,7 +5,7 @@
     <title>蓝深科技</title>
     <link rel="stylesheet" href="css/currency.css">
     <link rel="stylesheet" href="css/left.css">
-    <link rel="stylesheet" href="css/add_datasource.css">
+    <link rel="stylesheet" href="css/add_data_source.css">
     <link rel="stylesheet" href="css/mission_edit.css">
     <link rel="stylesheet" href="css/data_source.css">
     <link rel="stylesheet" href="css/mission_list.css">
@@ -26,15 +26,15 @@
                         <a href="#">数据管理</a>
                         <i></i>
                         <ul id="list_1" >
-                            <li>数据源</li>
-                            <li>关联数据库</li>
+                            <li><a href="data_source.html" target="_self">数据源</a></li>
+                            <li><a href="relationdata.html" target="_self">关联数据库</a></li>
                         </ul>
                     </li>
                     <li class="list_container" id="list2_container">
                         <a href="#">定时任务</a>
                         <i></i>
                         <ul id="list_2">
-                            <li>定时任务列表</li>
+                            <li><a href="mission_list.html" target="_self">定时任务列表</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -316,39 +316,39 @@
         </div>
     </div>
 </body>
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-<script>
-    let click_1 = $("#list_1 li:first-child");//数据源
-    let click_2 = $("#list_1 li:last-child");//关联数据库
-    let click_3 = $("#list_2 li:first-child");//关联数据库
-    let click_4 = $(".data_source_top button");//数据源添加按钮
-    let click_5 = $(".mission_list_top button");//定时任务列表添加按钮
-    let right = $(".right");//容器
+<!--<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>-->
+<!--<script>-->
+<!--    let click_1 = $("#list_1 li:first-child");//数据源-->
+<!--    let click_2 = $("#list_1 li:last-child");//关联数据库-->
+<!--    let click_3 = $("#list_2 li:first-child");//关联数据库-->
+<!--    let click_4 = $(".data_source_top button");//数据源添加按钮-->
+<!--    let click_5 = $(".mission_list_top button");//定时任务列表添加按钮-->
+<!--    let right = $(".right");//容器-->
 
-    //数据源点击显示
-    click_1.on("click",function () {
-        right.children().siblings().css("display","none");
-        $(".data_source").css("display","block");
-    })
-    //关联数据库点击显示
-    click_2.on("click",function () {
-        right.children().siblings().css("display","none");
-        $(".relation_data").css("display","block");
-    });
-    //定时任务列表点击显示
-    click_3.on("click",function () {
-        right.children().siblings().css("display","none");
-        $(".mission_list").css("display","block");
-    });
-    //添加数据源点击显示
-    click_4.on("click",function () {
-        right.children().siblings().css("display","none");
-        $(".add_data_source").css("display","block");
-    });
-    //定时任务列表编辑点击显示
-    click_5.on("click",function () {
-        right.children().siblings().css("display","none");
-        $(".mission_edit").css("display","block");
-    })
-</script>
+<!--    //数据源点击显示-->
+<!--    click_1.on("click",function () {-->
+<!--        right.children().siblings().css("display","none");-->
+<!--        $(".data_source").css("display","block");-->
+<!--    })-->
+<!--    //关联数据库点击显示-->
+<!--    click_2.on("click",function () {-->
+<!--        right.children().siblings().css("display","none");-->
+<!--        $(".relation_data").css("display","block");-->
+<!--    });-->
+<!--    //定时任务列表点击显示-->
+<!--    click_3.on("click",function () {-->
+<!--        right.children().siblings().css("display","none");-->
+<!--        $(".mission_list").css("display","block");-->
+<!--    });-->
+<!--    //添加数据源点击显示-->
+<!--    click_4.on("click",function () {-->
+<!--        right.children().siblings().css("display","none");-->
+<!--        $(".add_data_source").css("display","block");-->
+<!--    });-->
+<!--    //定时任务列表编辑点击显示-->
+<!--    click_5.on("click",function () {-->
+<!--        right.children().siblings().css("display","none");-->
+<!--        $(".mission_edit").css("display","block");-->
+<!--    })-->
+<!--</script>-->
 </html>
