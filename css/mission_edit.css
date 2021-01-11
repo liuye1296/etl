@@ -10,9 +10,45 @@
     display: flex;
     justify-content: center;
 }
-.mission_edit_from>div>select{
-    width: 79%
+.form_body{
+    width: 800px;
+    margin: 20px;
+    text-align: center;
 }
-.mission_edit_from>div>input{
-    width: 77%
+.form_body>form{
+    width: 100%;
+}
+.form_body>form>div{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px 0;
+}
+.form_body>span{
+    display: inline-block;
+}
+.form_body select{
+    width: 80%;
+    border: 1px solid #D9D9D9;
+    padding: 7px;
+    margin-left:2%;
+}
+.form_body input{
+    box-sizing: border-box;
+    width: 80%;
+    border: 1px solid #D9D9D9;
+    padding: 7px;
+    margin-left: 2%;
+}
+.form_body button{
+    background-color: #1890FF;
+    border: none;
+    outline: none;
+    padding: 6px 0;
+    border-radius: 5px;
+    width: 30%;
+}
+.form_body strong{
+    padding-right: 3px;
+    font-size: 14px;
 }

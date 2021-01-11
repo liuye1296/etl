@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定时任务列表</title>
+    <link rel="stylesheet" href="css/currency.css">
+    <link rel="stylesheet" href="css/left.css">
+    <link rel="stylesheet" href="css/mission_list.css">
+    <style>
+        #list_2>li:first-child{
+            background-color: #1890ff;
+        }
+        #list_2>li:first-child>a{
+            color: #FFFFFF;
+        }
+        .mission_list_body{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="left_header" >
+                <h3 style="font-size: 17px" class="left_header_inner">蓝深科技</h3>
+            </div>
+            <div class="left_bottom">
+                <ul>
+                    <li class="list_container" id="list1_container">
+                        <a href="#">数据管理</a>
+                        <i></i>
+                        <ul id="list_1" >
+                            <li><a href="data_source.html" target="_self">数据源</a></li>
+                            <li><a href="relationdata.html" target="_self">关联数据库</a></li>
+                        </ul>
+                    </li>
+                    <li class="list_container" id="list2_container">
+                        <a href="#">定时任务</a>
+                        <i></i>
+                        <ul id="list_2">
+                            <li><a href="mission_list.html" target="_self">定时任务列表</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <!--            定时任务列表-->
+            <div id="misson_list" class=" mission_list" >
+                <div class="mission_list_body">
+                    <div class="mission_list_header">
+                        <div class="mission_list_header_body">
+                            <ul>
+                                <li><label>id：</label><input placeholder="请输入数据id"></li>
+                                <li><label>源数据库id：</label><input placeholder="请输入源数据id"></li>
+                                <li><label>源数据表名：</label><input placeholder="请输入源数据表名"></li>
+                            </ul>
+                            <ul>
+                                <li><button type="submit">查询</button></li>
+                                <li><button type="submit">清除</button></li>
+                                <li class="mission_list_more">
+                                    <i></i>
+                                    <span>更多</span>
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mission_list_top">
+                        <button><a href="mission_edit.html" target="_self" style="color: #FFFFFF">添加关联</a></button>
+                    </div>
+                    <div class="mission_list_mid">
+                        <ul class="mission_list_mid_container">
+                            <li>
+                                <ul class="mission_list_source_row title_style">
+                                    <li></li>
+                                    <li>数据库</li>
+                                    <li>表名</li>
+                                    <li>关联数据库</li>
+                                    <li>关联表</li>
+                                    <li>创建人</li>
+                                    <li>创建时间</li>
+                                    <li>操作</li>
+                                    <li></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="mission_list_source_row">
+                                    <li><button>+</button></li>
+                                    <li>gj_user</li>
+                                    <li>e_sale_order</li>
+                                    <li>rantion_etl_data</li>
+                                    <li>e_sale_order</li>
+                                    <li>system</li>
+                                    <li>2020-08-01 17:42:21</li>
+                                    <li><a href="#">编辑</a></li>
+                                    <li><a href="#">添加定时任务</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="mission_list_source_row">
+                                    <li><button>+</button></li>
+                                    <li>gj_user</li>
+                                    <li>e_sale_order</li>
+                                    <li>rantion_etl_data</li>
+                                    <li>e_sale_order</li>
+                                    <li>system</li>
+                                    <li>2020-08-01 17:42:21</li>
+                                    <li><a href="#">编辑</a></li>
+                                    <li><a href="#">添加定时任务</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="mission_list_source_row">
+                                    <li><button>+</button></li>
+                                    <li>gj_user</li>
+                                    <li>e_sale_order</li>
+                                    <li>rantion_etl_data</li>
+                                    <li>e_sale_order</li>
+                                    <li>system</li>
+                                    <li>2020-08-01 17:42:21</li>
+                                    <li><a href="#">编辑</a></li>
+                                    <li><a href="#">添加定时任务</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="mission_list_source_row">
+                                    <li><button>+</button></li>
+                                    <li>gj_user</li>
+                                    <li>e_sale_order</li>
+                                    <li>rantion_etl_data</li>
+                                    <li>e_sale_order</li>
+                                    <li>system</li>
+                                    <li>2020-08-01 17:42:21</li>
+                                    <li><a href="#">编辑</a></li>
+                                    <li><a href="#">添加定时任务</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="mission_list_bottom">
+                        <li><i></i></li>
+                        <li>1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li><i></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
