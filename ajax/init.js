@@ -7,13 +7,15 @@
 
     //初始化 获取第一页的内容渲染到页面
     function init() {
-        ajax2({
+        ajax({
             type:'get',
-            url:'api/010.getdata.php',
-            data:'page='+iPages+'&num='+num,
+            url:'/getAllDatasource',
+            data:"",
             success:function (str) {
-                console.log(str)
+                console.log(str);
             }
         })
     }
-})
+    init();
+}
+)

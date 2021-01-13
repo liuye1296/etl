@@ -44,6 +44,7 @@
     /*line-height: 36px;*/
     padding-left: 10px;
     border-bottom: 1px solid #F0F0F0;
+    align-items: center;
 }
 .title_style{
     background-color: #FAFAFA;
@@ -64,6 +65,7 @@
     flex: 4;
 }
 .data_source_row>li:nth-child(3){
+    /*white-space: nowrap;*/
     flex: 4;
 }
 .data_source_row>li:nth-child(4){

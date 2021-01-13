@@ -33,6 +33,7 @@ function ajax(options) {
                 if (xhr.status == 200){
                     if (defaults.success){//如果有数据就返回
                         defaults.success(xhr.responseText);
+                        console.log(xhr.responseText)
                     }
                 }else{
                     alert('错误代码：'+xhr.status);
