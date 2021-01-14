@@ -1,12 +1,6 @@
 function get_data(res){
     let list = document.getElementById("list")//获取列表;
     for(let i in res){
-        console.log(res[i].id);
-        console.log(res[i].database);
-        console.log(res[i].code);
-        console.log(res[i].url.split("jdbc:")[1]);
-        console.log(res[i].driverType);
-        console.log(res[i].updateBy);
         let li = createDom(res[i]);
         list.appendChild(li);
     }

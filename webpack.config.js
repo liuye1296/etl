@@ -19,14 +19,22 @@ module.exports = {
                 pathRewrite: {
                     '^/getAllDatasource': ''
                 },
-                '/getAllJobTask': {
-                    target: "http://etl-front.rantion-admin.com/rantion_etl/etlTask/jobTask/getAllJobTask",
-                    changeOrigin: true,
-                    pathRewrite: {
-                        '^/getAllJobTask': ''
-                    }
+
+            },
+            '/getAllJobTask': {
+                target: "http://etl-front.rantion-admin.com/rantion_etl/etlTask/jobTask/getAllJobTask",
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/getAllJobTask': ''
                 }
-            }
+            },
+            '/getAllTables': {
+                target: "http://etl-front.rantion-admin.com/rantion_etl/basicData/tables/getAllTables",
+                changeOrigin: true,
+                pathRewrite: {
+                    '^/getAllTables': ''
+                }
+            },
         }
     }
 }

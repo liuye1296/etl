@@ -45,7 +45,7 @@
         </div>
     </div>
     <div class="right">
-        <!--            关联数据库-->
+        <!--            定时任务列表-->
         <div class="mission_list" >
             <div class="mission_list_body">
                 <div class="mission_list_header">
@@ -61,7 +61,7 @@
                     </div>
                 </div>
                 <div class="mission_list_mid">
-                    <ul class="mission_list_mid_container">
+                    <ul class="mission_list_mid_container" id="list">
                         <li>
                             <ul class="mission_list_source_row title_style">
                                 <li>id</li>
@@ -71,17 +71,6 @@
                                 <li>description</li>
                                 <li>cronExpression</li>
                                 <li>操作</li>
-                            </ul>
-                        </li>
-                        <li>
-                            <ul class="mission_list_source_row">
-                                <li>548</li>
-                                <li>ads_deleted_records</li>
-                                <li>src_gj_rantion</li>
-                                <li>com.rantion.etlquartz.job.EtlJob</li>
-                                <li></li>
-                                <li>0 0/1***?</li>
-                                <li><a href="#">编辑</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -100,3 +89,4 @@
 </body>
 </html>
 <script src="js/fetch_get.js"></script>
+<script src="js/CreateDOM.js"></script>

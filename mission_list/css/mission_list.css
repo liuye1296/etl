@@ -116,7 +116,7 @@
 .mission_list_mid_container>li>.mission_list_source_row{
     display: flex;
     justify-content:space-between;
-    /*line-height: 36px;*/
+    align-items: center;
     padding-left: 10px;
     border-bottom: 1px solid #F0F0F0;
 }
