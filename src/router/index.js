@@ -19,6 +19,6 @@ export const createRouter = () =>
         return { x: 0, y: 0 };
       }
     },
-    mode: "history", // require service support
+    mode: "history", //
     routes,
   });
