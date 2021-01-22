@@ -34,7 +34,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(), // hot
   ],
   devServer: {
-    host: "0.0.0.0", //设置服务器的主机号，默认是localhost
+    host: "localhost", //设置服务器的主机号，默认是localhost
     port: 9000,
     proxy: {
       "/api": {

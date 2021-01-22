@@ -1,5 +1,5 @@
 <template>
-  <div>请求结果: {{ JSON.stringify(list) }}</div>
+  <div></div>
 </template>
 <script>
 import { get } from "axios";
